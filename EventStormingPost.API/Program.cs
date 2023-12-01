@@ -1,7 +1,7 @@
+using EventStormingPost.Application.Features.Post.Commands;
+using EventStormingPost.Infrastructure;
 using MediatR;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
@@ -16,7 +16,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // Dodanie obs³ugi MediatR
-builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly(), typeof(CreateHandler).Assembly);
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 

@@ -6,3 +6,7 @@
 /EventStormingPost.API/.vs/EventStormingPost.API
 /EventStormingPost.API/bin/Debug/net6.0
 /EventStormingPost.API/obj
+/EventStormingPost.Application/bin/Debug/net6.0
+/EventStormingPost.Application/obj
+/EventStormingPost.Infrastructure/bin/Debug/net6.0
+/EventStormingPost.Infrastructure/obj

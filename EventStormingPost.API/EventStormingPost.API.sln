@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStormingPost.API", "EventStormingPost.API.csproj", "{2AB0688F-42BF-4E5C-8F58-87C39DEEA26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventStormingPost.API", "EventStormingPost.API.csproj", "{2AB0688F-42BF-4E5C-8F58-87C39DEEA26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStormingPost.Application", "..\EventStormingPost.Application\EventStormingPost.Application.csproj", "{83465961-B259-4274-B45B-26E4A412D7AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStormingPost.Infrastructure", "..\EventStormingPost.Infrastructure\EventStormingPost.Infrastructure.csproj", "{DBD71BC0-4E2C-4AD9-96C5-A1EA8975F009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2AB0688F-42BF-4E5C-8F58-87C39DEEA26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AB0688F-42BF-4E5C-8F58-87C39DEEA26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AB0688F-42BF-4E5C-8F58-87C39DEEA26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83465961-B259-4274-B45B-26E4A412D7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83465961-B259-4274-B45B-26E4A412D7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83465961-B259-4274-B45B-26E4A412D7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83465961-B259-4274-B45B-26E4A412D7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD71BC0-4E2C-4AD9-96C5-A1EA8975F009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD71BC0-4E2C-4AD9-96C5-A1EA8975F009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD71BC0-4E2C-4AD9-96C5-A1EA8975F009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD71BC0-4E2C-4AD9-96C5-A1EA8975F009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
