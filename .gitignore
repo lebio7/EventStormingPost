@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/EventStormingPost.API/.vs/EventStormingPost.API
+/EventStormingPost.API/bin/Debug/net6.0
+/EventStormingPost.API/obj
