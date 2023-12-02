@@ -25,11 +25,6 @@ namespace EventStormingPost.Application.Features.PostToApproval.Commands
 
         public async Task<Unit> Handle(UpdateCommand request, CancellationToken cancellationToken)
         {
-            if (request.Dto?.Id == null)
-            {
-                throw new ArgumentNullException(nameof(request.Dto.Id));
-            }
-
             bool result = postToApprovalRepository.Update(request.Dto);
 
             return Unit.Value;

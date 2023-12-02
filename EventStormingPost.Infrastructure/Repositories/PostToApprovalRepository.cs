@@ -27,11 +27,11 @@ namespace EventStormingPost.Infrastructure.Repositories
                 throw new Exception("Not found");
             }
 
-            var toUpdate = postsToApprove.FirstOrDefault(x => x.Id == dto.Id);
+            var indexToUpdate = postsToApprove.FindIndex(x => x.Id == dto.Id);
 
-            if (toUpdate != null)
+            if (indexToUpdate >= 0)
             {
-                toUpdate = dto;
+                postsToApprove[indexToUpdate] = dto;
             }
 
             return true;

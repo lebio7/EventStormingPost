@@ -24,11 +24,6 @@ namespace EventStormingPost.Application.Features.PostToApproval.Commands
 
         public async Task<Guid> Handle(CreateCommand request, CancellationToken cancellationToken)
         {
-            if (request.Dto.Id != null)
-            {
-                throw new ArgumentException(nameof(request.Dto.Id));
-            }
-
             var id = postToApprovalRepository.Add(request.Dto);
 
             return id;
