@@ -9,6 +9,7 @@ namespace EventStormingPost.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
             services.AddScoped<IPostRepository, PostRepository>();
+            services.AddScoped<IPostToApprovalRepository, PostToApprovalRepository>();
 
             return services;
         }
