@@ -4,7 +4,7 @@ Simple project, where I try to use EventStorming + CQRS using MediatR
 In this project, you can create post. 
 After you created post, in project we have simple event with notification, which adds post to approve for Admin.
 
-![project example]([https://github.com/twoje-konto/twoje-repozytorium/raw/main/ścieżka/do/twojego/obrazu.png](https://github.com/lebio7/EventStormingPost/blob/main/EventStormingPost.API/example.png)https://github.com/lebio7/EventStormingPost/blob/main/EventStormingPost.API/example.png)
+![project example](https://github.com/lebio7/EventStormingPost/blob/main/EventStormingPost.API/example.png)https://github.com/lebio7/EventStormingPost/blob/main/EventStormingPost.API/example.png)
 
 API - Technologies
 
