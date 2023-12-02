@@ -1,7 +1,6 @@
 using EventStormingPost.Application.Features.Post.Commands;
 using EventStormingPost.Infrastructure;
 using MediatR;
-using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
