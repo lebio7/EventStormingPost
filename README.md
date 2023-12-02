@@ -13,3 +13,6 @@ CQRS
 EventStorming
 Modular Application
 
+
+EventStormingPost.Infrastructure is very simple, without database, because my main target was created Post and used Publish to implement event.
+
